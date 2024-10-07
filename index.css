@@ -1,0 +1,116 @@
+/* this is a comment */
+
+.nav {
+	text-align: right;
+	height: auto;
+}
+
+.nav a {
+	color: white;
+	font-size: 0.8em;
+	font-weight: bold;
+	padding-top: 14px;
+	padding-bottom: 14px;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+.nav .image {
+	float: left;
+}
+
+.nav .login {
+	float: right;
+	padding-top: 15px;
+}
+
+
+.nav ul {
+	display: inline;
+}
+
+.nav li { /* makes list horizontally next to each other*/
+	display: inline;
+	padding: 10px;
+}
+
+.nav img {
+	display: inline;
+	height: 50px;
+}
+
+.jumbotron {
+	height: 31em;
+	background: linear-gradient(#3D59AB, white);
+	/*background-image: url('images/gboat.jpg');*/
+	background-size: 100% 100%;
+	clear: both;
+}
+
+.jumbotron .container { /* moves the text down the div*/
+	position: relative;
+	top: 90px;
+}
+
+.jumbotron h1 {
+	color: white;
+	font-size: 2em;
+	font-weight: bold;
+}
+
+.jumbotron p {
+	font-family: 'Shift', sans-serif;
+	padding: 0px;
+	margin: 0px;
+	color: white;
+	font-size: 0.8em;
+}
+
+.jumbotron form {
+	font-family: Tahoma;
+	font-size: 1.5em;
+	padding-left: 
+}
+
+.button {
+	color: white;
+	background-color: #3D59AB;
+	border: none;
+	font-family: 'Shift', sans-serif;
+}
+
+.button:hover {
+	font-weight: bold;
+}
+
+form {
+	text-align: center;
+}
+
+.info {
+	background-color: white;
+	width: 100%;
+	float: left;
+}
+
+.footer {
+	text-align: right;
+	color: white;
+	clear: both;
+}
+
+
+
+
+
+
+
+body { /* this sets the main page image to have no white space around it */
+	margin: 0px;
+	background-color: #3D59AB;
+	font-family: 'Shift', sans-serif;
+}
+
+a, h3, p, h1 { /* adds padding to counter-balance above code */
+	padding-left: 10px;
+}

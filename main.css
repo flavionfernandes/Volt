@@ -1,0 +1,101 @@
+/* this is a comment */
+
+.nav {
+	text-align: right;
+	height: auto;
+}
+
+.nav a {
+	color: white;
+	font-size: 0.8em;
+	font-weight: bold;
+	padding-top: 14px;
+	padding-bottom: 14px;
+	text-transform: uppercase;
+	font-family: 'Shift', sans-serif;
+	text-decoration: none;
+}
+
+.nav .image {
+	float: left;
+}
+
+.nav .login {
+	float: right;
+	padding-top: 15px;
+}
+
+
+.nav ul {
+	display: inline;
+}
+
+.nav li { /* makes list horizontally next to each other*/
+	display: inline;
+	padding: 10px;
+}
+
+.nav img {
+	display: inline;
+	height: 50px;
+}
+
+
+.jumbotron {
+	height: 31em;
+	width: 100%;
+	display: inline;
+	float: left;
+	clear: both;
+	background: linear-gradient(#3D59AB, white);
+	text-align: center;
+	
+}
+
+button {
+	font-family: 'Shift', sans-serif;
+	background-color: #3D59AB;
+	color: white;
+	border: none;
+}
+
+button:hover {
+	font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer {
+	text-align: right;
+	font-family: 'Shift', sans-serif;
+	color: white;
+	clear: both;
+}
+
+body { /* this sets the main page image to have no white space around it */
+	margin: 0px;
+	background-color: #3D59AB;
+	font-family: 'Shift', sans-serif;
+}
+
+a, h3, p, h1 { /* adds padding to counter-balance above code */
+	padding-left: 10px;
+}
